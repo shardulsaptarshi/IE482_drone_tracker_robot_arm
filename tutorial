@@ -12,4 +12,21 @@ Hardware:
 
 
 Step 1: Set up VM to read USB port
+-Open Oracle VM virtualbox
+-Click on your virtual machine
+-Click settings
+-Click USB on the left sidebar
+-Make sure enable USB controller and USB 2.0 are selected.
+-Select the second icon on the right toolbar (add USB icon)
+-Select FTDI
+-start the VM, open a terminal, and type lsusb. You should notice the FTDI there.
+
+Step 2: Follow the following tutorial till [4:31]:
+https://www.youtube.com/watch?v=ebscKnr9jN0 
+
+  NOTE: 
+  -sometimes all the motors may not respond when you type "ls" in arbotix terminal. In this case, unplug one (or both) of 
+   motor commectors from the arbotix board and plug them back in.
+  -tutorial references files "arm.yaml" and "arm.launch" aka "arbotixarm.launch" which are provided in the this repo.
+  -tutorial references an already created package. Create your own and catkin_make before you run it.
 
