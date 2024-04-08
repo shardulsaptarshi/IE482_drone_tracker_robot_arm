@@ -1,0 +1,14 @@
+Software:
+-Oracle VirtualBox VM running on Windows 11 PC
+-Virtual machine:
+  -Ububtu 20.04
+  -running ROS noetic
+
+Hardware:
+-Arbotix pincher arm
+  -Dynamixel servo motors
+  -Arbotix board
+-FTDI cable connected to PC via USB
+
+
+Step 1: Set up VM to read USB port
