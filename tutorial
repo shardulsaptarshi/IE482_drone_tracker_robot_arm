@@ -30,3 +30,22 @@ https://www.youtube.com/watch?v=ebscKnr9jN0
   -tutorial references files "arm.yaml" and "arm.launch" aka "arbotixarm.launch" which are provided in the this repo.
   -tutorial references an already created package. Create your own and catkin_make before you run it.
 
+CAMERA
+
+By default, your VM may not be recognizing your system's webcam, which may prevent you from launching the camera using openCV, even for testing. 
+
+If using Virtual Box:
+-You need to download the extension pack that can be found on this link: https://www.virtualbox.org/wiki/Downloads
+Scroll down to "VirtualBox 7.0.16 Oracle VM VirtualBox Extension Pack" and click on "all supported platforms". The pack will be installed when you click on it.
+-Make sure you are NOT using the USB camera/webcam in your host machine. 
+-Once it is fully installed, close VirtualBox and start your VM.  
+-From the top right toolbar, select Devices, and then webcam.
+-Here, you can either select the webcam you have, or a USB cam.
+
+
+Useful calibration+arucoTag link: https://github.com/GSNCodes/ArUCo-Markers-Pose-Estimation-Generation-Python/tree/main
+
+
+
+
+
