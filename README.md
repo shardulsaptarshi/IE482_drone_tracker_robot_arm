@@ -32,13 +32,13 @@ If using Virtual Box: -You need to download the extension pack that can be found
 The servo limits were found and are shown below in degrees. You may need to find new limits for different configurations. Use the arm_controller.py script 
 from arbotix_test/src to test out random pan and tilt angles.
 
-![Image Alt text](images/hardware_setup.jpg)
+![Image Alt text](images/hardware_setup.jpeg)
 
 The arrow shows the orientation of the robot
 
 The wires of the webcam are hot glued onto the servos as shown below
-![Image Alt text](images/hard1.jpg)
-![Image Alt text](images/hard2.jpg)
+![Image Alt text](images/hard1.jpeg)
+![Image Alt text](images/hard2.jpeg)
 
 **STEPS**
 
