@@ -34,7 +34,8 @@ from arbotix_test/src to test out random pan and tilt angles.
 
 ![Image Alt text](images/hardware_setup.jpeg)
 
-The arrow shows the orientation of the robot
+-The arrow shows the orientation of the robot.
+-The rectangle depicts a single frame in the video stream of the webcam.
 
 The wires of the webcam are hot glued onto the servos as shown below
 ![Image Alt text](images/hard1.jpeg)
