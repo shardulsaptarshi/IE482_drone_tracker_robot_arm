@@ -56,7 +56,7 @@ The wires of the webcam are hot glued onto the servos as shown below
 
 
 
-**STEPS**
+**HOW TO RUN THE CODE**
 
 1) check if your servos are working. Open a new linux terminal and type
 ```
