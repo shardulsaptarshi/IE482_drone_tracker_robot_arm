@@ -99,3 +99,15 @@ The controller will now make the camera move according to the position of the ar
 There are a couple of these types of videos on youtube that dont use a controller for tracking, but they involve a static camera, whereas our system has a
 dynamic camera.
 
+
+**FUTURE WORK**
+
+The controller:
+1) The controller for this system needs further development. Currently, it uses only a proportional controller with gains that have not been optimized. Through further trial and error, a better proportional gain could be identified.
+2) There is signicant steady state error. Including an integral term compensated by a derivative term could bolster the response time, stability, and accuracy of tracking.
+
+GPS:
+1) Incorporate GPS tracking and fuse with camera data. There is no GPS being used in the current system. An additional tracking mechanism would be helpful in delivering better results.
+
+Camera:
+2) For practical applications, optical zoom would be very helpful. The current code can easily detect the size of an aruco tag in the camera. This can be mapped to the device's optical zoom to get better picture quality.
