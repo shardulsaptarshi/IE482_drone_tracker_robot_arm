@@ -110,5 +110,4 @@ GPS:
 1) Incorporate GPS tracking and fuse with camera data. There is no GPS being used in the current system. An additional tracking mechanism would be helpful in delivering better results.
 
 Camera:
-
-2) For practical applications, optical zoom would be very helpful. The current code can easily detect the size of an aruco tag in the camera. This can be mapped to the device's optical zoom to get better picture quality.
+1) For practical applications, optical zoom would be very helpful. The current code can easily detect the size of an aruco tag in the camera. This can be mapped to the device's optical zoom to get better picture quality.
