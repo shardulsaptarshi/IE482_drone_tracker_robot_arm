@@ -43,5 +43,13 @@ The wires of the webcam are hot glued onto the servos as shown below
 
 **STEPS**
 
+1) check if your servos are working. Open a new linux terminal and type
+function test() {
+  console.log("This code will have a copy button to the right of it");
+}
+
+
+2) 
+3) 
 
 
