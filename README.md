@@ -44,9 +44,10 @@ The wires of the webcam are hot glued onto the servos as shown below
 **STEPS**
 
 1) check if your servos are working. Open a new linux terminal and type
-function test() {
-  console.log("This code will have a copy button to the right of it");
-}
+>>arbotix_terminal
+>>ls
+
+The IDs of the servos connected to your arbotix chip should start popping up. If they don't, turn the servo power on and off and try again.
 
 
 2) 
