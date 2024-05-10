@@ -27,6 +27,18 @@ By default, your VM may not be recognizing your system's webcam, which may preve
 If using Virtual Box: -You need to download the extension pack that can be found on this link: https://www.virtualbox.org/wiki/Downloads Scroll down to "VirtualBox 7.0.16 Oracle VM VirtualBox Extension Pack" and click on "all supported platforms". The pack will be installed when you click on it. -Make sure you are NOT using the USB camera/webcam in your host machine. -Once it is fully installed, close VirtualBox and start your VM.
 -From the top right toolbar, select Devices, and then webcam. -Here, you can either select the webcam you have, or a USB cam.
 
+Placing the package:
+Download the arbotix_test package and place it in:
+```
+~/catkin_ws/src
+```
+
+then build the package
+```
+catkin_make
+```
+
+
 **hardware setup**
 
 The servo limits were found and are shown below in degrees. You may need to find new limits for different configurations. Use the arm_controller.py script 
@@ -40,6 +52,9 @@ from arbotix_test/src to test out random pan and tilt angles.
 The wires of the webcam are hot glued onto the servos as shown below
 ![Image Alt text](images/hard1.jpeg)
 ![Image Alt text](images/hard2.jpeg)
+
+
+
 
 **STEPS**
 
@@ -57,6 +72,16 @@ The IDs of the servos connected to your arbotix chip should start popping up. If
 roslaunch arbotix_test arm.launch
 ```
   
-4) 
+4) Open a new terminal. Now start the aruco tag tracking. 
+```
+rosrun arbotix_test detect_aruco_video.py --type DICT_5X5_100 --camera True
+```
+here, we are tracking aruco tags of type DICT_5X5_100. 
+
+5) Open another terminal and type:
+```
+rosrun arbotix_test arm_controller_v3.py
+```
 
 
+A pop up window should display the video stream and aruco tag coordinates
