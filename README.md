@@ -77,11 +77,10 @@ roslaunch arbotix_test arm.launch
 rosrun arbotix_test detect_aruco_video.py --type DICT_5X5_100 --camera True
 ```
 here, we are tracking aruco tags of type DICT_5X5_100. 
+A pop up window should display the video stream and aruco tag coordinates
 
 5) Open another terminal and type:
 ```
 rosrun arbotix_test arm_controller_v3.py
 ```
-
-
-A pop up window should display the video stream and aruco tag coordinates
+The controller will now make the camera move according to the position of the arucotag.
