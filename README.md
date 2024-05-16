@@ -90,6 +90,15 @@ rosrun arbotix_test arm_controller_v3.py
 ```
 The controller will now make the camera move according to the position of the arucotag.
 
+UPDATE: New controller version is BETA, but offers better aruco tag tracking. Some sources of error have been found to be:
+-The controller does not work when the servos are position so that the camera is flipped upside down.
+-Camera shakes more
+To deploy BETA version V4.
+
+```
+rosrun arbotix_test arm_controller_v4.py
+```
+
 **References I found helpful**
 1) For aruco tag tracking - SowmiyaNarayanan G and SowmiyaNarayanan G. Link: https://github.com/GSNCodes/ArUCo-Markers-Pose-Estimation-Generation-Python
 2) For camera calibration - https://aliyasineser.medium.com/opencv-camera-calibration-e9a48bdd1844
@@ -111,3 +120,4 @@ GPS:
 
 Camera:
 1) For practical applications, optical zoom would be very helpful. The current code can easily detect the size of an aruco tag in the camera. This can be mapped to the device's optical zoom to get better picture quality.
+
