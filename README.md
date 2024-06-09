@@ -103,10 +103,7 @@ rosrun arbotix_test arm_controller_v4.py
 1) For aruco tag tracking - SowmiyaNarayanan G and SowmiyaNarayanan G. Link: https://github.com/GSNCodes/ArUCo-Markers-Pose-Estimation-Generation-Python
 2) For camera calibration - https://aliyasineser.medium.com/opencv-camera-calibration-e9a48bdd1844
 
-**References I found unhelpful**
-"[DEMO] Headshot Tracking || OpenCV | Arduino" https://www.youtube.com/watch?v=f2TUxoaKIsA&pp=ygUgdGFyZ2V0IGhlYWRzaG90IG9wZW4gY3YgdHJhY2tpbmc%3D
-There are a couple of these types of videos on youtube that dont use a controller for tracking, but they involve a static camera, whereas our system has a
-dynamic camera.
+
 
 
 **FUTURE WORK**
