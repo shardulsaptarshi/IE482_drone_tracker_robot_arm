@@ -93,7 +93,7 @@ rosrun arbotix_test arm_controller_v4.py
 **FUTURE WORK**
 
 The controller:
-1) The controller for this system needs further development. Currently, it uses only a proportional controller with gains that have not been optimized. Through further trial and error, a better proportional gain could be identified.
+1) The controller for this system needs further development. PID gains need further tuning.
 2) There is signicant steady state error. Including an integral term compensated by a derivative term could bolster the response time, stability, and accuracy of tracking.
 
 GPS:
